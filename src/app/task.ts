@@ -6,4 +6,4 @@ export interface Task {
     priority_level: String;
     category: String;
     progress_level: any;
-}
+} 
