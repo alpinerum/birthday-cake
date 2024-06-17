@@ -16,7 +16,7 @@ export class TaskServiceService {
     return {
       title: 'Review the Angular directives',
       description: 'Random text',
-      priority_level: 'medium',
+      priority_level: 'high',
       date: new Date(2024, 4, 7),
       time: new Date(2024, 4, 7, 14, 0, 0),
       category: 'random',

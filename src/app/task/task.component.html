@@ -1,9 +1,8 @@
 <div class="card">
-    <div class="card-header"
-    [ngClass]="{
-        'bg-secondary': task.priority_level === 'low',
-        'bg-warning': task.priority_level === 'medium',
-        'bg-danger': task.priority_level === 'high'
+    <div class="card-header text-light" [ngClass]="{'bg-secondary': task.priority_level==='low',
+        'bg-dark':task.priority_level==='medium',
+        'bg-warning':task.priority_level==='high',
+        'bg-danger':task.priority_level==='critical'
     }">
     <h4 class="card-title">{{ task.title }}</h4>
     </div>
